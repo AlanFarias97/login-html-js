@@ -32,7 +32,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "web_dev") {
         alert("You have successfully logged in.");
-        location.reload();
+        location.reload();//aca va el redireccionamiento ejmplo: window.location = "success.html";
     } else {
         attempt--;// Decrementing by one.
         alert("You have left " + attempt + " attempt;");
